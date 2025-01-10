@@ -1,6 +1,7 @@
 import java.util.concurrent.CountDownLatch;
 
 class Worker extends Thread{
+
     private final CountDownLatch latch;
 
     public Worker(CountDownLatch latch) {
